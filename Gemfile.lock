@@ -8,9 +8,16 @@ PATH
 GEM
   remote: http://rubygems.org/
   specs:
+    columnize (0.3.2)
     eventmachine (0.12.10)
     json (1.4.6)
+    linecache (0.43)
     roauth (0.0.3)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4)
+      linecache (>= 0.3)
     twitter-stream (0.1.10)
       eventmachine (>= 0.12.8)
       roauth (>= 0.0.2)
@@ -22,4 +29,5 @@ DEPENDENCIES
   bundler (>= 1.0.0)
   enso!
   json
+  ruby-debug
   twitter-stream (~> 0.1.10)
