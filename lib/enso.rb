@@ -12,7 +12,7 @@ r["river"]
 
 if __FILE__ == $0
   streams = [
-    Stream::RSS.new('http://www.reddit.com/r/all/new.xml'),
+    Stream::RSS.new("http://feeds2.feedburner.com/hackaday/LgoM"),
   ]
   river = River.new
   streams.each do |stream|
