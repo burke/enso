@@ -1,5 +1,5 @@
 module Stream
-  class Dummy
+  class Dummy < Base
     def tick
       ["Hello, World!"]
     end 

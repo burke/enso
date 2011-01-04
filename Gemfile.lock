@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    enso (0.0.1)
+      json
+      twitter-stream (~> 0.1.10)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    eventmachine (0.12.10)
+    json (1.4.6)
+    roauth (0.0.3)
+    twitter-stream (0.1.10)
+      eventmachine (>= 0.12.8)
+      roauth (>= 0.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.0.0)
+  enso!
+  json
+  twitter-stream (~> 0.1.10)
